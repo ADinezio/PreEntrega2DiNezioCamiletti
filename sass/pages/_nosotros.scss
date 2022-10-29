@@ -1,0 +1,43 @@
+/* Pagina Nosotros */
+/* Main */
+
+.main-nosotros {
+  background-color: #ced4da;
+
+  .nosotros {
+    background-color: #8ecae6;
+    padding: 4rem;
+
+    .nosotros__h1 {
+      font-family: var($primary-font);
+      font-weight: bold;
+      font-size: 6rem;
+      margin: 5rem;
+    }
+
+    .article {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 2rem;
+
+      .article__img {
+        width: 30rem;
+      }
+      .article__text {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    .nosotros h1 {
+      font-size: 3rem;
+    }
+    .article {
+      flex-direction: column;
+    }
+    .article__img {
+      width: 20rem;
+    }
+  }
+}

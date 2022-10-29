@@ -1,0 +1,51 @@
+/* Pagina Cotizaciones */
+/* Main */
+
+.section-cotizaciones {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .h1 {
+    font-size: 6rem;
+    margin-bottom: 6rem;
+  }
+
+  .container-formulario {
+    margin-bottom: 8rem;
+
+    &.formulario input:nth-child(6) {
+      font-size: 1.5rem;
+      margin: 2rem;
+    }
+
+    .form-control {
+      height: 4rem;
+      margin: 1rem;
+    }
+  }
+}
+
+/* Esto es para sacarle al input de tipo number los botones. */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.container-submit {
+  .submit {
+    font-size: 1.5rem;
+    margin: 0 auto;
+    display: block;
+    max-width: 50%;
+  }
+}
+
+/* Fin Pagina Cotizaciones */
