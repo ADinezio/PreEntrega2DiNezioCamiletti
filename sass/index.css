@@ -20,12 +20,12 @@ html body {
 .navbar .nav-item {
   font-size: 2rem;
 }
-
 @media (max-width: 576px) {
-  .nav__logo img {
+  .navbar .nav__logo img {
     width: 27rem;
   }
 }
+
 /* Fin Barra Navegacion */
 /* Pagina INICIO */
 /* Pagina Inicio Main */
@@ -161,7 +161,7 @@ html body {
 .section-cotizaciones .container-formulario {
   margin-bottom: 8rem;
 }
-.section-cotizaciones .container-formulario.formulario input:nth-child(6) {
+.section-cotizaciones .container-formulario .formulario input:nth-child(6) {
   font-size: 1.5rem;
   margin: 2rem;
 }
@@ -181,10 +181,12 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
+.container-submit {
+  display: flex;
+  justify-content: center;
+}
 .container-submit .submit {
-  font-size: 1.5rem;
-  margin: 0 auto;
-  display: block;
+  font-size: 2rem;
   max-width: 50%;
 }
 
