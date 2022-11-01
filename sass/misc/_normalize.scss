@@ -4,10 +4,9 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
   body {
-    // No  me esta funcionando, se me rompe la pagina.
-    // display: grid;
-    // grid-template-rows: auto 1fr auto;
-    // min-width: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
     font-size: 16px;
     font-family: var(--primary-font);
   }
