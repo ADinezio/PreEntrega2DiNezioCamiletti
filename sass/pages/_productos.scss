@@ -3,8 +3,8 @@
 
 .main-productos {
   .productos__h1 {
-    font-size: 4rem;
-    margin: 3rem;
+    font-size: 6rem;
+    margin: 5rem;
     font-family: var($primary-font);
     font-weight: bold;
   }
@@ -14,20 +14,26 @@
     grid-template-columns: repeat(1, 1fr);
     gap: 2rem;
     margin-bottom: 4rem;
-    padding: 6rem;
+    padding: 2rem;
 
     .producto {
+      padding: 1rem;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-bottom: 2rem;
+      background-color: #f8f9fa;
+      border: 3px solid #dee2e6;
+      border-radius: 3rem;
 
       img {
+        padding: 1.5rem;
         width: 30rem;
-        margin-bottom: 3rem;
-        border-radius: 0.5rem;
+        margin-bottom: 1.5rem;
+        border-radius: 2rem;
       }
+
       a {
         width: 30%;
         font-size: 1.5rem;
@@ -39,9 +45,9 @@
       grid-template-columns: repeat(2, 1fr);
     }
   }
-  @media (min-width: 992px) {
+  @media (min-width: 1200px) {
     .section {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(4, 1fr);
     }
   }
 }
