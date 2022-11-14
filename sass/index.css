@@ -14,6 +14,7 @@ html body {
 *:before,
 *:after {
   box-sizing: inherit;
+  font-family: "Roboto", sans-serif;
 }
 
 /* Barra Navegacion */
@@ -167,6 +168,7 @@ html body {
   margin-bottom: 6rem;
 }
 .section-cotizaciones .container-formulario {
+  max-width: 1000px;
   margin-bottom: 8rem;
 }
 .section-cotizaciones .container-formulario .formulario input:nth-child(6) {
@@ -176,6 +178,17 @@ html body {
 .section-cotizaciones .container-formulario .form-control {
   height: 4rem;
   margin: 1rem;
+}
+.section-cotizaciones .container-formulario #comentario {
+  height: 15rem;
+}
+.section-cotizaciones .container-formulario label {
+  margin-left: 1rem;
+}
+.section-cotizaciones .container-formulario form div:nth-child(5) label {
+  display: block;
+  text-align: center;
+  font-size: 2.5rem;
 }
 
 /* Esto es para sacarle al input de tipo number los botones. */

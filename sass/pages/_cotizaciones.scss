@@ -14,9 +14,10 @@
   }
 
   .container-formulario {
+    max-width: 1000px;
     margin-bottom: 8rem;
 
-    & .formulario input:nth-child(6) {
+    .formulario input:nth-child(6) {
       font-size: 1.5rem;
       margin: 2rem;
     }
@@ -24,6 +25,20 @@
     .form-control {
       height: 4rem;
       margin: 1rem;
+    }
+
+    #comentario {
+      height: 15rem;
+    }
+
+    label {
+      margin-left: 1rem;
+    }
+
+    form div:nth-child(5) label {
+      display: block;
+      text-align: center;
+      font-size: 2.5rem;
     }
   }
 }
