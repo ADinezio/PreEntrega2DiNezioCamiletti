@@ -95,6 +95,9 @@ html body {
 .main-nosotros .nosotros .article .article__text {
   font-size: 1.5rem;
 }
+.main-nosotros .nosotros .article span {
+  font-weight: bold;
+}
 @media (max-width: 768px) {
   .main-nosotros .nosotros h1 {
     font-size: 3rem;
@@ -109,6 +112,9 @@ html body {
 
 /* Pagina Productos */
 /* Main */
+.main-productos {
+  padding: 2rem;
+}
 .main-productos .productos__h1 {
   font-size: 6rem;
   margin: 5rem;
@@ -136,6 +142,7 @@ html body {
 .main-productos .section .producto img {
   padding: 1.5rem;
   width: 30rem;
+  height: 33.5rem;
   margin-bottom: 1.5rem;
   border-radius: 2rem;
 }
@@ -143,7 +150,7 @@ html body {
   width: 30%;
   font-size: 1.5rem;
 }
-@media (min-width: 576px) {
+@media (min-width: 700px) {
   .main-productos .section {
     grid-template-columns: repeat(2, 1fr);
   }
